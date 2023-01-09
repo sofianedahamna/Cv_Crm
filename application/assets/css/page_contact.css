@@ -1,0 +1,107 @@
+body{
+    background-image: url(../img/taal-6999584_960_720.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#titre_formulaire{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    background: linear-gradient(#3393FF,#ddd);
+    border-radius: 10PX;
+    box-shadow: 10px 5px 10.2px aliceblue;
+    font-family:"Font Awesome 6 Free";
+}
+#bloc_general{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+}
+footer{
+    text-align: center;
+    background: linear-gradient(#3393FF,#ddd);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+}
+#contenaire_formulaire{
+    display:grid;
+    width: 100%;
+    min-height: 100%;
+}
+#boite_du_formulaire{
+    margin: auto;
+    box-sizing: border-box;
+    width: 40%;
+    height: 70%;
+    background: white;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 10px 5px 10.2px aliceblue;
+    display: grid;
+}
+#champ_objet{
+    display: grid;
+}
+#champ_E-mail{
+    display: grid;
+}
+#champ_telephone{
+    display: grid;
+}
+#champ_message{
+    display: grid;
+}
+form div > input, form div > select, form div > textarea {
+    background:#3393FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    resize: none;
+}
+form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+}
+form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+  }
+  
+form div > select option {
+    background: white;
+    color: #303030;
+  }
+  
+  form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+  }
+
+  form button {
+    font-weight: 700;
+    font-size: 28px;
+    font-family:"Font Awesome 6 Free";
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+    margin-left: 50%;
+  }    
+  form input{
+      box-sizing: border-box;
+  }
+  form{
+      background-color: #ddd;
+      border-radius: 10px;
+  }

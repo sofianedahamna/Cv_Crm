@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+body{
+    margin:0;
+    min-height: 100%;
+    padding: 0;
+    background-image: url(../img/taal-6999584_960_720.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#titre_boite{
+    font-size: 25px;
+}
+#boite_bienvenue{
+    text-align: center;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bloc_general{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+}
+#boite_de_connexion{
+    background-color: rgba(0, 58, 250, 0.191);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+    box-shadow: 10px 5px 10.2px aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
+#champ_login{
+    width: 75%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+#champ_password{
+    width: 75%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+input[type="texte"], input[type="password"] {
+        margin-right: auto;
+        margin-left: auto;
+        height: 30px;
+}
+#email{
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+}
+#button_connex{
+    background-color:gainsboro;
+
+}
+footer{
+    text-align: center;
+    background: linear-gradient(45deg,blue,darkgray);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+}
+#button_cv{
+    margin-left: 90%;
+    background-color:gray;
+}
+#mot_de_passe{
+    background-color: black;
+}
+
+#bloc_button_mdp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 15%;
+    text-align: right;
+}
+label{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+form:last-child{
+    padding: 10px;
+}

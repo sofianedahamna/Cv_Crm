@@ -1,0 +1,110 @@
+header {
+    display: table;
+    width: 100%;
+    background-color:gray;
+}
+#titre {
+    display: table-cell;
+    width: 70%;
+    text-align: center;
+    font-size: x-large;
+    vertical-align: bottom;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#imagetitre {
+    display: table-cell;
+    width: 30%;    
+    display: none;
+}
+#blocgeneral {
+    display: table;
+    width: 100%;
+}
+#blocdegauche {
+    display: table-cell;
+    width: 38%;
+    background-color: bisque;
+    border: 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#bloc_de_droite {
+    display: table-cell;
+    width: 70%;
+    background-color:white;
+}
+#boiteCoordonnée ul{
+    list-style-type:none;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+.p1{
+    color: white;
+}
+#listepermis{
+    list-style-type: none;
+    padding-inline-start: initial;
+}
+#listecoordonnée{
+    padding-inline-start: initial;
+}
+body{
+    margin: 0;
+    padding-bottom: 0%;
+}
+#superblock{
+    margin: 0 auto;
+    width: 900px;
+    box-shadow: 1px 1px 3px #ddd;
+}
+#tabdedroite{
+    border:solid 1px black;
+    width: 500px;
+    border-collapse: collapse;
+    margin: 20px auto 0;
+}
+th{
+    border: solid 1px black;
+}
+td{
+    border: solid 1px black;
+    
+}
+.p2{
+    padding: 19px;
+    font-size: 20px;
+    
+}
+.titretableau{
+    border:solid 1px ;
+    background-color: bisque;
+}
+.cellulecontextetableau{
+    background-color: darkgray;
+}
+.celluleenvironementtableau{
+    background-color: darkgray;
+}
+.cellulerealisationtableau{
+    background-color: darkgray;
+}
+.minimax{
+    margin-bottom: 15px;
+}
+.polymem{
+    margin-bottom: 15px;
+}
+.h2-bloc-de-droite{
+    margin: 40px;
+}
+#imagetitre>img{
+    width: 270px;
+    height: 187px;
+    vertical-align: middle;
+}
+ul li{
+    font-size: x-large;
+}
